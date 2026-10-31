@@ -20,7 +20,7 @@ class Program
             }
         }
 
-        
+
         int sum = 0;
 
 foreach (int item in numbers)
