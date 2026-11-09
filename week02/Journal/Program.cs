@@ -9,7 +9,6 @@ class Program
         int choice = 0;
 
         Journal journal = new Journal();
-        
 
         List<string> prompts = new List<string>
 {
@@ -47,9 +46,17 @@ while (choice != 5)
 }
 else if (choice == 1)
 {
+    // Creativity: I added goal and action fields to each journal entry to help users turn reflection into a plan.
+Console.Write("What goal would you like to achieve today? ");
+string todaysGoal = Console.ReadLine() ?? "";
+
+Console.Write("What action will you take today to make progress toward this goal? ");
+string todaysAction = Console.ReadLine() ?? "";
     int promptIndex = randomGenerator.Next(prompts.Count);
 
     Entry newEntry = new Entry();
+    newEntry._goal = todaysGoal;
+    newEntry._action = todaysAction;
     newEntry._date = DateTime.Now.ToShortDateString();
     newEntry._prompt = prompts[promptIndex];
 
