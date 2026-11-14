@@ -1,0 +1,4 @@
+John|3|16|16|For God so loved the world that he gave his only begotten Son.
+Psalm|23|1|1|The LORD is my shepherd; I shall not want.
+Proverbs|3|5|6|Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.
+Psalm|121|1|2|I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from the LORD, which made heaven and earth.
