@@ -9,7 +9,7 @@ class Program
         List<Scripture> scriptures = new List<Scripture>();
 
         // Load each passage from the file and create its Reference and Scripture objects.
-        foreach (string line in File.ReadAllLines("scriptures.txt"))
+        foreach (string line in File.ReadAllLines(Path.Combine(AppContext.BaseDirectory, "scriptures.txt")))
         {
             string[] parts = line.Split('|');
 
